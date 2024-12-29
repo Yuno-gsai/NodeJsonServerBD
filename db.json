@@ -1,0 +1,63 @@
+{
+    "profesores":[        
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "apellido": "Perez",
+            "maretrias":
+            [
+                {
+                    "id": 1,
+                    "nombre": "Ingenieria en Sistemas",
+                    "facultad": "Ingenieria"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Ingenieria en Mecatronica",
+                    "facultad": "Ingenieria"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Ingenieria en Civil",
+                    "facultad": "Ingenieria"
+                }
+            ]
+        }
+    ],
+    "alumnos":
+    [
+        {
+            "id": 1,
+            "nombre": "Pedro",
+            "apellido": "Gomez",
+            "carrera":
+            {
+                "id": 1,
+                "nombre": "Ingenieria en Sistemas",
+                "facultad": "Ingenieria"
+            }
+        },
+        {
+            "id": 2,
+            "nombre": "Maria",
+            "apellido": "Lopez",
+            "carrera":
+            {
+                "id": 2,
+                "nombre": "Ingenieria en Mecatronica",
+                "facultad": "Ingenieria"
+            }
+        },
+        {
+            "id": 3,
+            "nombre": "Jose",
+            "apellido": "Martinez",
+            "carrera":
+            {
+                "id": 3,
+                "nombre": "Ingenieria en Civil",
+                "facultad": "Ingenieria"
+            }
+        }
+    ]
+}
